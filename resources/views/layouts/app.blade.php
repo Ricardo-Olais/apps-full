@@ -3,22 +3,35 @@
 <!doctype html>
 <html>
 <head>
-  <title>Mi app en línea</title> 
+  <title>⚡ APK Mi app en línea</title>
+  
   <meta charset="utf-8">
   <meta name="google" content="notranslate">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="img/apkcombo-icon.svg" />
+  <link rel="icon" href="https://apkcombo.com/static/svg/apkcombo-icon.svg" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
   <style type="text/css">
+
+      body{
+
+        background-image: url("img/fondo3.jpg");
+            -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+
       .info {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    margin-left: 90px;
-    margin-top: -60px;
-   }
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-left: 90px;
+        margin-top: -60px;
+       }
 
     .l_item {
         width: 350px;

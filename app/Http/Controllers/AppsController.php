@@ -23,11 +23,11 @@ class AppsController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-     public function entretenimiento()
+     public function entretenimiento($params=false)
         {
 
             $datos=array();
-            $res = DB::table('descarga_apps')->where('categoria',"entretenimiento")->get();
+            $res = DB::table('descarga_apps')->where('categoria',"entretenimiento")->where('titulo', 'like', "%$params%")->get();
 
               foreach ($res as $key => $value) {
 

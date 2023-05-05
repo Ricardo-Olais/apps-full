@@ -2,19 +2,82 @@
 
 @section('content')
 
-<div class="card" style="width:100%;height: 25px !important;background-color: #000;">
- <center><strong style="color:#fff;">Entretenamiento</strong></center>
+<script async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+
+<style type="text/css">
+   body{
+        background-image: url("");
+        //background-image: url("{{ URL::to('/') }}/img/fondo_mobile.jpg");
+         -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+</style>
+
+
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+
+      $("#buscar").click(function(){
+
+          var valueFiltro=$("#filtro").val();
+         // alert(valueFiltro);
+         $("#loading").css("display","");
+          
+          window.location.replace("{{ URL::to('/') }}/entretenimiento/"+valueFiltro);
+
+
+
+      });
+
+  });
+</script>
+
+<div class="card" style="width:100%;height: 25px !important;background-color:#28a745;">
+ <center><strong style="color:#fff;">Entretenimiento</strong></center>
 </div>
+
+
+
+<center>
+<div class="input-group mb-8" style="width: 80%;margin-top: 5px;">
+  <stripe-buy-button
+                  buy-button-id="buy_btn_1My6UyA94PugK9gPoWX1R6XA"
+                  publishable-key="pk_live_51My4BjA94PugK9gPVi42fynUV5Z1ytdMU1DAqHC6Zsie4QHefYZ2hirnb2QBw73Xpkr2kd4pr4sxcrR2eH9r0rM50095ZYctPa"
+                >
+  </stripe-buy-button>
+
+  <!--form name="filtra" id="filtra" method="GET" action=""-->
+  <input type="text" class="form-control" placeholder="Buscar APK" aria-describedby="basic-addon2" name="filtro" id="filtro">
+  <div class="input-group-append">
+    <button type='submit' class="btn btn-success" id="buscar"><iconify-icon icon="ic:outline-search" style="font-size: 24px;color: #fff;"></iconify-icon></button>
+
+
+
+  </div>
+
+  <!--/form-->
+</div>
+</center>
+<br>
+
+<center>
+<img src="{{ URL::to('/') }}/img/loading.gif" id='loading' style="position:absolute;z-index: 2000;text-align: inherit;display: none;">
+</center>
 
 
  @foreach($datos as $valor)
 
 
-<div class="card nav-link l_item" style="width:350px;margin-top: 5px;margin-left: 10px;height: 300px;">
+<div class="card nav-link l_item" style="width:350px;margin-top: 5px;margin-left: 20px;height: 300px;">
     <div class="card-body">
       <h6 class="card-title">{{ $valor['titulo'] }}</h6>
 
-     <img src="{{ $valor['img'] }}" alt="icon" referrerpolicy="no-referrer" width="75" height="75">
+     <img src="{{ URL::to('/') }}/{{ $valor['img'] }}" alt="icon" referrerpolicy="no-referrer" width="75" height="75">
       
       <p class="info">
         
@@ -23,7 +86,10 @@
      </p>
      <br>
      <p>{{ $valor['contenido'] }}</p>
-<a href="{{ $valor['url'] }}" class="btn btn-primary" style="float:right;background-color: black;"><iconify-icon icon="ic:baseline-cloud-download" style="font-size: 20px;color: #fff;"></iconify-icon></a>
+
+<a href="{{ URL::to('/') }}/{{ $valor['url'] }}" class="btn btn-primary" style="float:right;background-color: black;"><iconify-icon icon="ic:baseline-cloud-download" style="font-size: 20px;color: #fff;"></iconify-icon></a>
+
+
 
      
 
