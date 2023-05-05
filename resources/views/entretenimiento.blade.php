@@ -50,7 +50,7 @@
                   publishable-key="pk_live_51My4BjA94PugK9gPVi42fynUV5Z1ytdMU1DAqHC6Zsie4QHefYZ2hirnb2QBw73Xpkr2kd4pr4sxcrR2eH9r0rM50095ZYctPa"
                 >
   </stripe-buy-button>
-
+  <br>
   <!--form name="filtra" id="filtra" method="GET" action=""-->
   <input type="text" class="form-control" placeholder="Buscar APK" aria-describedby="basic-addon2" name="filtro" id="filtro">
   <div class="input-group-append">
