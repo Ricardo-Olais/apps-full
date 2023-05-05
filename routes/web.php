@@ -30,4 +30,4 @@ Route::get('/juegos', function () {
 
 
 Route::get('/info/{apk}', 'AppsController@info')->name('info');
-Route::get('/entretenimiento', 'AppsController@entretenimiento')->name('entretenimiento');
+Route::get('/entretenimiento/{param?}', 'AppsController@entretenimiento')->name('entretenimiento');
