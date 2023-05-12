@@ -16,7 +16,7 @@
 
       body{
 
-        background-image: url("img/fondo3.jpg");
+        background-image: url("{{ URL::to('/') }}/img/fondo-mobil.jpeg");
             -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -61,6 +61,11 @@
           color: hotpink;
         }
 
+      #padre{ width:100%; height:70px; background-color:#CCCCCC; position:relative}
+      #hijo{ width:100%; height:50px; background-color:#666666; position:absolute; bottom:0%; right:0%; margin:0 5px 5px 0}
+
+      
+
         
   </style>
 </head>
@@ -81,16 +86,19 @@
     <div class="collapse navbar-collapse" id="opciones">   
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="#">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="categorias">Categorías</a>
+          <a class="nav-link" href="categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Música y audio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Entretenimiento</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Sube tu app <iconify-icon icon="material-symbols:cloud-upload" style="font-size: 18px;color: green;"></iconify-icon></a>
         </li>            
       </ul>
     </div>
@@ -106,6 +114,12 @@
        <main class="py-4">
             @yield('content')
         </main>
+
+  <div id="padre" style="text-align: center;">
+     <div id="hijo" style="padding:10px">
+       <span style="color:#fff;">&copy; <?php echo date("Y");?> Miappenlinea</span>
+     </div>
+   </div> 
 
 
 </body>

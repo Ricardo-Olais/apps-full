@@ -7,14 +7,40 @@
 
 <style type="text/css">
    body{
-        background-image: url("");
-        //background-image: url("{{ URL::to('/') }}/img/fondo_mobile.jpg");
+        //background-image: url("");
+        background-image: url("{{ URL::to('/') }}/img/fondo-mobil.jpeg");
          -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
       }
+
+    .card {
+        /* Add shadows to create the "card" effect */
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+      }
+
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .zoom{
+
+     transition: 1.5ms ease;
+     -moz-transition: 1.5s ease; /* Firefox */
+     -webkit-transition: 1.5s ease; /* Chrome - Safari */
+     -o-transition: 1.5s ease; /* Opera */
+    }
+
+    .zoom:hover{
+    transform : scale(1.2);
+    -moz-transform : scale(1.1); /* Firefox */
+    -webkit-transform : scale(1.1); /* Chrome - Safari */
+    -o-transform : scale(1.1); /* Opera */
+    -ms-transform : scale(1.1); /* IE9 */ }
 </style>
 
 
@@ -37,14 +63,14 @@
   });
 </script>
 
-<div class="card" style="width:100%;height: 25px !important;background-color:#28a745;">
+<div class="card" style="width:100%;height: 25px !important;background-color:black;">
  <center><strong style="color:#fff;">Entretenimiento</strong></center>
 </div>
 
 
 
 <center>
-<div class="input-group mb-8" style="width: 80%;margin-top: 5px;">
+<div class="input-group mb-8" style="width: 80%;margin-top: 15px;">
   <!--stripe-buy-button
                   buy-button-id="buy_btn_1My6UyA94PugK9gPoWX1R6XA"
                   publishable-key="pk_live_51My4BjA94PugK9gPVi42fynUV5Z1ytdMU1DAqHC6Zsie4QHefYZ2hirnb2QBw73Xpkr2kd4pr4sxcrR2eH9r0rM50095ZYctPa"
@@ -54,7 +80,7 @@
   <!--form name="filtra" id="filtra" method="GET" action=""-->
   <input type="text" class="form-control" placeholder="Buscar APK" aria-describedby="basic-addon2" name="filtro" id="filtro">
   <div class="input-group-append">
-    <button type='submit' class="btn btn-success" id="buscar"><iconify-icon icon="ic:outline-search" style="font-size: 24px;color: #fff;"></iconify-icon></button>
+    <button type='submit' class="btn btn-dark" id="buscar"><iconify-icon icon="ic:outline-search" style="font-size: 24px;color: #fff;"></iconify-icon></button>
 
 
 
@@ -77,7 +103,7 @@
     <div class="card-body">
       <h6 class="card-title">{{ $valor['titulo'] }}</h6>
 
-     <img src="{{ URL::to('/') }}/{{ $valor['img'] }}" alt="icon" referrerpolicy="no-referrer" width="75" height="75">
+     <img src="{{ URL::to('/') }}/{{ $valor['img'] }}" alt="icon" referrerpolicy="no-referrer" width="75" height="75" class="zoom">
       
       <p class="info">
         
