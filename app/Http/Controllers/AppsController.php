@@ -51,7 +51,7 @@ class AppsController extends Controller
 
            //return view('ok', ['pages' => $page,'type'=>$type,"medida"=>$medida]);
 
-            return view('entretenimiento', ['datos' => $datos]);
+            return view('entretenimiento', ['datos' => $datos, 'variable'=>$params]);
         }
 
 

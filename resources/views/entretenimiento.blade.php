@@ -94,7 +94,9 @@
 <center>
 <img src="{{ URL::to('/') }}/img/loading.gif" id='loading' style="position:absolute;z-index: 2000;text-align: inherit;display: none;">
 </center>
-
+ @if($variable !=false)
+<center><span style="color:#fff;">Resultados de la búsqueda: {{$variable}}</span></center>
+  @endif
 
  @foreach($datos as $valor)
 
@@ -114,7 +116,14 @@
      <p>{{ $valor['contenido'] }}</p>
 
 <a href="{{ URL::to('/') }}/{{ $valor['url'] }}" class="btn btn-primary" style="float:right;background-color: black;"><iconify-icon icon="ic:baseline-cloud-download" style="font-size: 20px;color: #fff;"></iconify-icon></a>
+  
+  @if($variable !=false)
 
+      <a href="{{ URL::to('/') }}/entretenimiento" class="btn btn-primary" style="float:right;background-color: black;color:#fff;">Regresar <iconify-icon icon="humbleicons:arrow-go-back" style="font-size: 20px;color: #fff;"></iconify-icon></a>
+  
+
+
+  @endif
 
 
      
