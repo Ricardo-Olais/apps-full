@@ -75,7 +75,7 @@
          // alert(valueFiltro);
          $("#loading").css("display","");
           
-          window.location.replace("{{ URL::to('/') }}/entretenimiento/"+valueFiltro);
+          window.location.replace("{{ URL::to('/') }}/juegos/"+valueFiltro);
 
 
 
