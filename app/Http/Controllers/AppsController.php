@@ -56,6 +56,38 @@ class AppsController extends Controller
 
 
 
+        public function juegos($params=false)
+        {
+
+            $datos=array();
+            $res = DB::table('descarga_apps')->where('categoria',"juegos")->where('titulo', 'like', "%$params%")->get();
+
+              foreach ($res as $key => $value) {
+
+                                     $datos[]=array(
+                                           
+                                            "titulo"=>$value->titulo,
+                                            "img"=>$value->img,
+                                            "autor"=>$value->autor,
+                                            "descripcion"=>$value->descripcion,
+                                            "contenido"=>$value->contenido,
+                                            "url"=>$value->url,
+                                            "categoria"=>$value->categoria,
+                                            "estatus"=>$value->estatus
+
+
+
+                                        );
+
+                }            
+
+
+           //return view('ok', ['pages' => $page,'type'=>$type,"medida"=>$medida]);
+
+            return view('juegos', ['datos' => $datos, 'variable'=>$params]);
+        }
+
+
      public function info($apk)
         {
 
