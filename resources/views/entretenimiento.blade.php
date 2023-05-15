@@ -41,6 +41,27 @@
     -webkit-transform : scale(1.1); /* Chrome - Safari */
     -o-transform : scale(1.1); /* Opera */
     -ms-transform : scale(1.1); /* IE9 */ }
+
+    ::-webkit-scrollbar {
+      width: 20px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      border-radius: 10px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background:  #678aa0 ; 
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background:  #9cadb6 ; 
+    }
 </style>
 
 
@@ -133,6 +154,8 @@
 
     </div>
   </div>
+
+
  @endforeach
 
 
