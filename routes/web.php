@@ -22,12 +22,14 @@ Route::get('/categorias', function () {
 });
 
 
-Route::get('/juegos', function () {
+/*Route::get('/juegos', function () {
     return view('juegos');
-});
+});*/
 
 
 
 
 Route::get('/info/{apk}', 'AppsController@info')->name('info');
 Route::get('/entretenimiento/{param?}', 'AppsController@entretenimiento')->name('entretenimiento');
+
+Route::get('/juegos/{param?}', 'AppsController@juegos')->name('juegos');
