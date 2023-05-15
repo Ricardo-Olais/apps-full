@@ -140,7 +140,7 @@
   
   @if($variable !=false)
 
-      <a href="{{ URL::to('/') }}/entretenimiento" class="btn btn-primary" style="float:right;background-color: black;color:#fff;">Regresar <iconify-icon icon="humbleicons:arrow-go-back" style="font-size: 20px;color: #fff;"></iconify-icon></a>
+      <a href="{{ URL::to('/') }}/juegos" class="btn btn-primary" style="float:right;background-color: black;color:#fff;">Regresar <iconify-icon icon="humbleicons:arrow-go-back" style="font-size: 20px;color: #fff;"></iconify-icon></a>
   
 
 
