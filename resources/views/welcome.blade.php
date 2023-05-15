@@ -41,8 +41,8 @@
 		}
 </style>
 
-
-<div class="card" style="width:350px;margin-top: 5px;margin-left: 20px;height: 600px;opacity: .9;">
+<center>
+<div class="card" style="width:350px;margin-top: 5px;height: 600px;opacity: .9;">
     <div class="card-body">
       <h6 class="card-title"></h6>
       <p style="text-align:justify;">Las mejores aplicaciones en un solo lugar...Podrás descargar apps full sin limitantes, sin anuncios.</p>
@@ -67,6 +67,7 @@
 
     </div>
   </div>
+ </center>
 
 
 @endsection
