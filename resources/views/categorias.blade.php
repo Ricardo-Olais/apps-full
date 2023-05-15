@@ -96,16 +96,16 @@
     <div class="collapse navbar-collapse" id="opciones">   
       <ul class="navbar-nav">
       <li class="nav-item">
-              <a class="nav-link" href="#">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
+              <a class="nav-link" href="{{ URL::to('/') }}">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
+              <a class="nav-link" href="{{ URL::to('/') }}/categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Música y audio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Entretenimiento</a>
+              <a class="nav-link" href="{{ URL::to('/') }}/entretenimiento">Entretenimiento</a>
             </li>
              <li class="nav-item">
               <a class="nav-link" href="#">Sube tu app <iconify-icon icon="material-symbols:cloud-upload" style="font-size: 18px;color: green;"></iconify-icon></a>

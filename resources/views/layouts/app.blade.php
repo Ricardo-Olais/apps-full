@@ -64,7 +64,7 @@
       #padre{ width:100%; height:70px; background-color:#CCCCCC; position:relative}
       #hijo{ width:100%; height:50px; background-color:#666666; position:absolute; bottom:0%; right:0%; margin:0 5px 5px 0}
 
-      
+
 
         
   </style>
@@ -86,16 +86,16 @@
     <div class="collapse navbar-collapse" id="opciones">   
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
+          <a class="nav-link" href="{{ URL::to('/') }}">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
+          <a class="nav-link" href="{{ URL::to('/') }}/categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Música y audio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Entretenimiento</a>
+          <a class="nav-link" href="{{ URL::to('/') }}/entretenimiento">Entretenimiento</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="#">Sube tu app <iconify-icon icon="material-symbols:cloud-upload" style="font-size: 18px;color: green;"></iconify-icon></a>
