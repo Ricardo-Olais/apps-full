@@ -3,7 +3,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>⚡ APK Mi app en línea</title>
+  <title>⚡Juegos Bros</title>
   
   <meta charset="utf-8">
   <meta name="google" content="notranslate">
@@ -16,7 +16,7 @@
 
       body{
 
-        background-image: url("{{ URL::to('/') }}/img/fondo-mobil.jpeg");
+        background-image: url("{{ URL::to('/') }}/img/fondo_juegos.PNG");
             -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -61,8 +61,8 @@
           color: hotpink;
         }
 
-      #padre{ width:100%; height:70px; background-color:#CCCCCC; position:relative}
-      #hijo{ width:100%; height:50px; background-color:#666666; position:absolute; bottom:0%; right:0%; margin:0 5px 5px 0}
+      #padre{ width:100%; height:70px; background-color:orange; position:relative}
+      #hijo{ width:100%; height:50px; background-color:orange; position:absolute; bottom:0%; right:0%; margin:0 5px 5px 0}
 
 
 
@@ -72,14 +72,14 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light ">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark " style="background-color:black;opacity: .9;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
       <span class="navbar-toggler-icon"></span>
     </button>
     
     <!-- logo -->
-    <a class="navbar-brand" href="#">
-      <img src="{{ URL::to('/') }}/img/apk-icon.svg" width="30" height="30" alt=""> miappenlinea
+    <a class="navbar-brand" href="#" style="color:orange;">
+      <img src="{{ URL::to('/') }}/img/mario2.png" width="40" height="40" alt=""> Juegos Bros
     </a>
     
     <!-- enlaces -->
@@ -88,7 +88,13 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ URL::to('/') }}">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
         </li>
+
         <li class="nav-item">
+           <a class="nav-link" href="{{ URL::to('/') }}/categorias">Centro de descarga oficial de juegos</a>
+          
+
+        </li>
+        <!--li class="nav-item">
           <a class="nav-link" href="{{ URL::to('/') }}/categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
         </li>
         <li class="nav-item">
@@ -99,7 +105,7 @@
         </li>
          <li class="nav-item">
           <a class="nav-link" href="#">Sube tu app <iconify-icon icon="material-symbols:cloud-upload" style="font-size: 18px;color: green;"></iconify-icon></a>
-        </li>            
+        </li-->            
       </ul>
     </div>
   </nav>
@@ -117,7 +123,7 @@
 
   <div id="padre" style="text-align: center;">
      <div id="hijo" style="padding:10px">
-       <span style="color:#fff;">&copy; <?php echo date("Y");?> Miappenlinea</span>
+       <span style="color:#fff;">&copy; <?php echo date("Y");?> Juegos Bros</span>
      </div>
    </div> 
 

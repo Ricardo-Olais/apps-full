@@ -7,7 +7,7 @@
 <style type="text/css">
 	 body{
         //background-image: url("");
-        background-image: url("{{ URL::to('/') }}/img/fondo3_welcome.gif");
+        background-image: url("{{ URL::to('/') }}/img/fondo_juegos.PNG");
          -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -41,8 +41,8 @@
 		}
 </style>
 
-<center>
-<div class="card" style="width:350px;margin-top: 5px;height: 600px;opacity: .9;">
+
+<!--div class="card" style="width:350px;margin-top: 5px;height: 600px;opacity: .9;">
     <div class="card-body">
       <h6 class="card-title"></h6>
       <p style="text-align:justify;">Las mejores aplicaciones en un solo lugar...Podrás descargar apps full sin limitantes, sin anuncios.</p>
@@ -66,8 +66,116 @@
         
 
     </div>
-  </div>
- </center>
+  </div-->
+
+  <div class="container-fluid" style="margin-top:10px;">
+    <center>
+   
+
+    <div class="row">
+      <div class="col-sm-12" style="height:700px; overflow: scroll;border-radius: 10px;overflow-x: hidden;background-color: #000;opacity: .9;color: #fff;"  >
+
+     <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Nombre de juego</th>
+            <th>Descargar</th>
+         
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> 20 MIL JUEGOS.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            
+          </tr>
+           <tr>
+            <td><iconify-icon icon="uiw:file-pdf" style="font-size: 20px;color: orange;"></iconify-icon> INSTRUCCIONES PARA LOS 20 MIL JUEGOS.pdf</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            
+          </tr>
+
+          
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Call of Duty®_ Warzone.xapk</td>
+           <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+          <tr>
+            <td><iconify-icon icon="ant-design:file-zip-twotone" style="font-size: 20px;color: orange;"></iconify-icon>EMULADOR NEOGEO PC.zip</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+           
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> FIFA.xapk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> GTA San Andreas.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> JUEGOS PS2, WII Y MAS.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Marvel vs Capcom_ Clash of Super Heroes.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Kof 98 Fighter Arcade.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Metal Skug Pack.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> KOF 2002 RETRO GAME.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Minecraft-1.19.73.02.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Roblox.xapk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Super Mario Run.apk</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+           <tr>
+            <td><iconify-icon icon="fa:youtube" style="font-size: 20px;color: orange;"></iconify-icon> Youtube Premium sin comerciales</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+          <tr>
+            <td><iconify-icon icon="arcticons:apk-explorer-and-editor-alt" style="font-size: 20px;color: orange;"></iconify-icon> Micro G</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+          </tr>
+
+            <tr>
+            <td><iconify-icon icon="uiw:file-pdf" style="font-size: 20px;color: orange;"></iconify-icon> INSTRUCCIONES PARA YOUTUBE.pdf</td>
+            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            
+          </tr>
+        </tbody>
+      </table>
+</div>
+</div>
+</div>
 
 
 @endsection
