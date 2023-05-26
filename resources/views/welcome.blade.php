@@ -104,7 +104,7 @@
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Call of Duty®_ Warzone.xapk</td>
            <td>
-            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Call of Duty®_ Warzone.xapk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Call of Duty®_ Warzone.apk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
 
           </td>
           </tr>
@@ -122,7 +122,7 @@
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> FIFA.xapk</td>
             <td>
 
-            <a href="{{ URL::to('/') }}/aplicaciones/juegos/FIFA.xapk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/FIFA.apk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
 
             </td>
 
@@ -193,7 +193,7 @@
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Roblox.xapk</td>
             <td>
 
-          <a href="{{ URL::to('/') }}/aplicaciones/juegos/Roblox.xapk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+          <a href="{{ URL::to('/') }}/aplicaciones/juegos/Roblox.apk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
 
             </td>
           </tr>
