@@ -7,7 +7,7 @@
   
   <meta charset="utf-8">
   <meta name="google" content="notranslate">
-  <meta name="theme-color" content="#00bcd4" />
+  <meta name="theme-color" content="#F0AE39" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="http://juegosbros.localizaminave.com:8081/img/mario2.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
