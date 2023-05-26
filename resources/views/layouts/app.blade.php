@@ -80,7 +80,7 @@
     
     <!-- logo -->
     <a class="navbar-brand" href="#" style="color:orange;">
-      <img src="{{ URL::to('/') }}/img/mario2.png" width="40" height="40" alt=""> Mis Juegos
+      <img src="{{ URL::to('/') }}/img/mario2.png" width="40" height="40" alt=""> Mis Jueg<iconify-icon icon="emojione:egg" style="font-size: 18px;color: #fff;"></iconify-icon>
     </a>
     
     <!-- enlaces -->
