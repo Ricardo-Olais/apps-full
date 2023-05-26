@@ -86,84 +86,143 @@
         <tbody>
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> 20 MIL JUEGOS.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+              <a href="{{ URL::to('/') }}/aplicaciones/juegos/20 MIL JUEGOS.apk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
             
           </tr>
            <tr>
             <td><iconify-icon icon="uiw:file-pdf" style="font-size: 20px;color: orange;"></iconify-icon> INSTRUCCIONES PARA LOS 20 MIL JUEGOS.pdf</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+              <a href="{{ URL::to('/') }}/aplicaciones/juegos/INSTRUCCIONES PARA LOS 20 MIL JUEGOS.pdf"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a></td>
             
           </tr>
 
           
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Call of Duty®_ Warzone.xapk</td>
-           <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+           <td>
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Call of Duty®_ Warzone.xapk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+          </td>
           </tr>
           <tr>
             <td><iconify-icon icon="ant-design:file-zip-twotone" style="font-size: 20px;color: orange;"></iconify-icon>EMULADOR NEOGEO PC.zip</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+             <a href="{{ URL::to('/') }}/aplicaciones/juegos/EMULADOR NEOGEO PC.zip"> <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
            
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> FIFA.xapk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/FIFA.xapk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
 
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> GTA San Andreas.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+           <a href="{{ URL::to('/') }}/aplicaciones/juegos/GTA San Andreas.apk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> JUEGOS PS2, WII Y MAS.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/JUEGOS PS2, WII Y MAS.apk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Marvel vs Capcom_ Clash of Super Heroes.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+           <a href="{{ URL::to('/') }}/aplicaciones/juegos/Marvel vs Capcom_ Clash of Super Heroes.apk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Kof 98 Fighter Arcade.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Kof 98 Fighter Arcade.apk"> <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Metal Skug Pack.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Metal Skug Pack.apk"> <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> KOF 2002 RETRO GAME.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/KOF 2002 RETRO GAME.apk"> <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Minecraft-1.19.73.02.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Minecraft-1.19.73.02.apk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Roblox.xapk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+          <a href="{{ URL::to('/') }}/aplicaciones/juegos/Roblox.xapk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Super Mario Run.apk</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Super Mario Run.apk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
            <tr>
             <td><iconify-icon icon="fa:youtube" style="font-size: 20px;color: orange;"></iconify-icon> Youtube Premium sin comerciales</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/youtube-stable-revanced-extended-v18.15.40-all.apk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
           <tr>
             <td><iconify-icon icon="arcticons:apk-explorer-and-editor-alt" style="font-size: 20px;color: orange;"></iconify-icon> Micro G</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+           <a href="{{ URL::to('/') }}/aplicaciones/juegos/microg.apk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
           </tr>
 
             <tr>
