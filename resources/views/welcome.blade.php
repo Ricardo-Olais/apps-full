@@ -75,7 +75,7 @@
     <div class="row">
       <div class="col-sm-12" style="height:700px; overflow: scroll;border-radius: 10px;overflow-x: hidden;background-color: #fff;opacity: .9;color: #000;"  >
 
-     <table class="table table-striped">
+     <table class="table">
         <thead>
           <tr>
             <th>Nombre de juego</th>
