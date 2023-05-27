@@ -7,7 +7,7 @@
 <style type="text/css">
 	 body{
         //background-image: url("");
-        background-image: url("{{ URL::to('/') }}/img/fondo_juegos.PNG");
+       // background-image: url("{{ URL::to('/') }}/img/fondo_juegos.PNG");
          -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -73,7 +73,7 @@
    
 
     <div class="row">
-      <div class="col-sm-12" style="height:700px; overflow: scroll;border-radius: 10px;overflow-x: hidden;background-color: #000;opacity: .9;color: #fff;"  >
+      <div class="col-sm-12" style="height:700px; overflow: scroll;border-radius: 10px;overflow-x: hidden;background-color: #fff;opacity: .9;color: #000;"  >
 
      <table class="table table-striped">
         <thead>

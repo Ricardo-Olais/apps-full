@@ -7,7 +7,7 @@
   
   <meta charset="utf-8">
   <meta name="google" content="notranslate">
-  <meta name="theme-color" content="#F0AE39" />
+  <!--meta name="theme-color" content="#F0AE39" /-->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="http://juegosbros.localizaminave.com:8081/img/mario2.png" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 
       body{
 
-        background-image: url("{{ URL::to('/') }}/img/fondo_juegos.PNG");
+        //background-image: url("{{ URL::to('/') }}/img/fondo_juegos.PNG");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -62,8 +62,8 @@
           color: hotpink;
         }
 
-      #padre{ width:100%; height:70px; background-color:orange; position:relative}
-      #hijo{ width:100%; height:50px; background-color:orange; position:absolute; bottom:0%; right:0%; margin:0 5px 5px 0}
+      #padre{ width:100%; height:70px; background-color:blac; position:relative}
+      #hijo{ width:100%; height:50px; background-color:black; position:absolute; bottom:0%; right:0%; margin:0 5px 5px 0}
 
 
 
@@ -73,7 +73,7 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark " style="background-color:black;opacity: .9;">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark " style="background-color:black !important;opacity: .9;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
       <span class="navbar-toggler-icon"></span>
     </button>
