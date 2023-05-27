@@ -84,6 +84,15 @@
           </tr>
         </thead>
         <tbody>
+
+          <tr>
+            <td><iconify-icon icon="arcticons:apk-explorer-and-editor-alt" style="font-size: 20px;color: orange;"></iconify-icon> APKPure.apk (Instalador de paquetes)</td>
+            <td>
+
+           <a href="{{ URL::to('/') }}/aplicaciones/juegos/APKPure.apk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
+          </tr>
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> 20 MIL JUEGOS.apk</td>
             <td>
@@ -104,7 +113,7 @@
           <tr>
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Call of Duty®_ Warzone.xapk</td>
            <td>
-            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Call of Duty®_ Warzone.apk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/Call of Duty®_ Warzone.xapk"><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
 
           </td>
           </tr>
@@ -122,7 +131,7 @@
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> FIFA.xapk</td>
             <td>
 
-            <a href="{{ URL::to('/') }}/aplicaciones/juegos/FIFA.apk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/FIFA.xapk">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
 
             </td>
 
@@ -193,7 +202,7 @@
             <td><iconify-icon icon="twemoji:video-game" style="font-size: 20px;color: orange;"></iconify-icon> Roblox.xapk</td>
             <td>
 
-          <a href="{{ URL::to('/') }}/aplicaciones/juegos/Roblox.apk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+          <a href="{{ URL::to('/') }}/aplicaciones/juegos/Roblox.xapk">   <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
 
             </td>
           </tr>
@@ -216,6 +225,8 @@
             </td>
           </tr>
 
+
+        
           <tr>
             <td><iconify-icon icon="arcticons:apk-explorer-and-editor-alt" style="font-size: 20px;color: orange;"></iconify-icon> Micro G</td>
             <td>
