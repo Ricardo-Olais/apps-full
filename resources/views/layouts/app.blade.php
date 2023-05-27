@@ -80,21 +80,22 @@
     
     <!-- logo -->
     <a class="navbar-brand" href="#" style="color:orange;">
-      <img src="{{ URL::to('/') }}/img/mario2.png" width="40" height="40" alt=""> Mis Jueg<iconify-icon icon="emojione:egg" style="font-size: 18px;color: #fff;"></iconify-icon>s
+      <img src="{{ URL::to('/') }}/img/mario2.png" width="40" height="40" alt=""> Mis Jueg<iconify-icon icon="fluent-emoji:egg" style="font-size: 24px;color: orange;"></iconify-icon>s
     </a>
     
     <!-- enlaces -->
     <div class="collapse navbar-collapse" id="opciones">   
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ URL::to('/') }}">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
-        </li>
+        <!--li class="nav-item">
+          <a class="nav-link" href="{{ URL::to('/') }}" style="color: #fff;">Inicio <iconify-icon icon="material-symbols:home" style="font-size: 18px;"></iconify-icon></a>
+        </li-->
 
         <li class="nav-item">
-           <a class="nav-link" href="{{ URL::to('/') }}/categorias">Centro de descarga oficial de juegos</a>
-          
-
+           <a class="nav-link" href="{{ URL::to('/') }}/categorias" style="color: #fff;">Centro de descargas</a>
+    
         </li>
+
+        <img src="{{ URL::to('/') }}/img/robot.gif" width="30" style="float:right;">
         <!--li class="nav-item">
           <a class="nav-link" href="{{ URL::to('/') }}/categorias">Categorías <iconify-icon icon="carbon:collapse-categories" style="font-size: 18px;"></iconify-icon></a>
         </li>
