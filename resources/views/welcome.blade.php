@@ -238,7 +238,12 @@
 
             <tr>
             <td><iconify-icon icon="uiw:file-pdf" style="font-size: 20px;color: orange;"></iconify-icon> INSTRUCCIONES PARA YOUTUBE.pdf</td>
-            <td><iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></td>
+            <td>
+
+
+            <a href="{{ URL::to('/') }}/aplicaciones/juegos/INSTALACION DE YOUTUBE.pdf">  <iconify-icon icon="ic:baseline-download" style="font-size: 30px;color: orange;"></iconify-icon></a>
+
+            </td>
             
           </tr>
         </tbody>
